@@ -3,7 +3,7 @@ let respuesta = document.getElementById("respuesta");
 function callApiRequest() {
   axios
     .get(
-      "https://3.135.222.137/iot-car-control/back-end/apis/getRegistro.php")
+      "https://13.58.77.167/iot-car-control/back-end/apis/getRegistro.php")
     .then(function (response) {
       // manejar respuesta exitosa
       console.log(response);
